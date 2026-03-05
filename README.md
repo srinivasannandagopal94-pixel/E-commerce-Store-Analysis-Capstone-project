@@ -1,5 +1,4 @@
 # E-commerce Store Analysis
-*Analyzing the data and creating a Dashboard to gain insights about the trends and patterns in Sales.*
 
 ## 📖 Table of Contents
 - [Project Overview](#-project-overview)
@@ -8,8 +7,6 @@
 - [Data Cleaning & Preparation](#-data-cleaning--preparation)
 - [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
 - [Key Insights](#-key-insights)
-- [Recommendations](#-recommendations)
-- [How to Use](#-how-to-use)
 
 ## 📊 Project Overview
 Analyzing the data and creating a Dashboard to gain insights about the trends and patterns in Sales.
@@ -45,23 +42,19 @@ Dataset obtained by Web scraping. **Size:** 188 kb. **Key Variables:** Sales ID,
 11.	Added a column “Discount amount” for calculation purposes.
 
 ## 🔍 Exploratory Data Analysis (EDA)
-What were the main questions you explored?
-- What is the overall sales trend?
-- Is there a correlation between price and customer rating?
+•	While analyzing the sales numbers based on category, the Sports category has the highest sales and the Beauty category has the lowest as shown in the chart below:
 
-> **Tip:** Insert a screenshot of one key visualization here to catch the reader's eye.
+<img width="718" height="449" alt="image" src="https://github.com/user-attachments/assets/5cbd646e-e120-43f9-bd22-dce1bcc73ee3" />
+
+●	The total sales in the West region is the lowest compared to others. As the sales in the West region is comparatively lower, better strategies are required in this region.
+
+●	By observing the quarterly sales trends, it appears to be linear. The dip in 2025 quarter 4 might be due to the fact that it was the current quarter while the data was prepared. So the overall trend is good by which the future sales will have good numbers.
+
+●	The beauty products has the least share and the sports products has the highest share.
+
+●	The loyalty wise sales chart indicates that the Platinum members provided the highest revenue comparatively.
+
+●	The shares of each payment method used which indicates all of them are used more or less equally.
 
 ## 💡 Key Insights
-List your top 3–5 findings in bullet points.
-- **Insight 1:** Sales peaked in Q4, primarily driven by holiday promotions.
-- **Insight 2:** Customers aged 25-34 have the highest lifetime value.
-
-## 🚀 Recommendations
-Translate your insights into actionable business advice.
-- "Increase marketing budget for the 25-34 demographic."
-- "Re-evaluate the pricing strategy for low-performing regions."
-
-## ⚙️ How to Use
-Explain how someone else can run your project.
-- List dependencies (e.g., `pip install -r requirements.txt`).
-- Provide instructions for running the notebook or script.
+The analysis shows that the sales trend is good and the existing strategies showed consistent results. However, attention is required in the West region as there is a significant difference in sales between this region and others. 
